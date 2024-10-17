@@ -1,0 +1,49 @@
+.btn {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border: none;
+  background: none;
+  transition: all 0.3s ease;
+
+  &.primary {
+    color: #FFF;
+    background: #2BD17E;
+    border: 1px solid #2BD17E;
+
+    &:hover {
+      background: transparent;
+      border: 1px solid #fff;
+    }
+  }
+
+  &.secondary {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #FFF;
+
+    &:hover {
+      background: #2BD17E;
+      border: 1px solid #2BD17E;
+    }
+  }
+}
+
+.icon-button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  width: 32px;
+  height: 32px;
+}

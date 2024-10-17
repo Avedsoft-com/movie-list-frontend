@@ -1,0 +1,80 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+html {
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+main {
+  overflow: hidden;
+}
+
+ul li,
+ol li {
+  margin: 0;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    padding: 0 80px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    padding: 0 120px;
+    max-width: 1440px;
+  }
+}
